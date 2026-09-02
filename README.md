@@ -33,7 +33,7 @@ Os produtos são obtidos através de uma API REST.
 
 catalogo-mobile/
 
-app/
+ app/
     index.tsx
     _layout.tsx
     first-page.tsx
@@ -42,7 +42,7 @@ app/
         [id].tsx
         styles.ts
 
-src/
+ src/
     components/
         button-custom/
         product-card/
@@ -54,11 +54,10 @@ src/
     services/
         auth.ts
         products.ts
-
-package.json
-app.json
-tsconfig.json
-README.md
+ package.json
+ app.json
+ tsconfig.json
+ README.md
 
 A pasta app contém as rotas da aplicação.
 
@@ -74,10 +73,10 @@ A pasta src/services contém os serviços de autenticação e consumo da API.
 
 É necessário possuir:
 
-Node.js
-npm
-Git
-Expo
+- Node.js
+- npm
+- Git
+- Expo
 
 ## 5.2 Clonar o Repositório
 git clone https://github.com/ysabelle-a/Catalago-Mobile.git
@@ -118,13 +117,13 @@ Ao selecionar um produto, o usuário é direcionado para uma tela com informaç�
 
 São apresentadas informações como:
 
-Imagem do produto
-Nome
-Preço
-Marca
-Descrição
-Avaliação
-Estoque
+- Imagem do produto
+- Nome
+- Preço
+- Marca
+- Descrição
+- Avaliação
+- Estoque
 
 ## 9. Consumo da API REST
 
@@ -162,27 +161,27 @@ A navegação da aplicação é realizada utilizando Expo Router.
 
 O fluxo principal possui:
 
-Tela de Login
-Catálogo de Produtos
-Detalhes do Produto
-Retorno ao Catálogo
-Logout
-Retorno ao Login
+- Tela de Login
+- Catálogo de Produtos
+- Detalhes do Produto
+- Retorno ao Catálogo
+- Logout
+- Retorno ao Login
 
 ## 13. Conceitos Aplicados
 
 Durante o desenvolvimento foram utilizados conceitos de:
 
-Desenvolvimento mobile
-Componentização
-TypeScript
-Gerenciamento de estado
-Requisições assíncronas
-Consumo de API REST
-Armazenamento local
-Navegação entre telas
-Organização de código
-Controle de versão com Git
+- Desenvolvimento mobile
+- Componentização
+- TypeScript
+- Gerenciamento de estado
+- Requisições assíncronas
+- Consumo de API REST
+- Armazenamento local
+- Navegação entre telas
+- Organização de código
+- Controle de versão com Git
 
 ## 14. Repositório
 
