@@ -31,33 +31,36 @@ Os produtos são obtidos através de uma API REST.
 
 ## 4. Estrutura do Projeto
 
+```
 catalogo-mobile/
-
- app/
-    index.tsx
-    _layout.tsx
-    first-page.tsx
-
-    product/
-        [id].tsx
-        styles.ts
-
- src/
-    components/
-        button-custom/
-        product-card/
-
-    screens/
-        first-page/
-        home-screen/
-
-    services/
-        auth.ts
-        products.ts
- package.json
- app.json
- tsconfig.json
- README.md
+├── app/
+│   ├── index.tsx
+│   ├── _layout.tsx
+│   ├── first-page.tsx
+│   └── product/
+│       ├── [id].tsx
+│       └── styles.ts
+│
+├── src/
+│   ├── components/
+│   │   ├── button-custom/
+│   │   └── product-card/
+│   │
+│   ├── screens/
+│   │   ├── first-page/
+│   │   └── home-screen/
+│   │
+│   └── services/
+│       ├── auth.ts
+│       └── products.ts
+│
+├── assets/
+├── package.json
+├── package-lock.json
+├── app.json
+├── tsconfig.json
+└── README.md
+```
 
 A pasta app contém as rotas da aplicação.
 
